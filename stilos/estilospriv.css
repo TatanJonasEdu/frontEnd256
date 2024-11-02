@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* Colors */
+    --blanco: #fff;
+    --azul: #096fc9ce;
+    --azuloscuro:rgba(25, 117, 246, 0.962) ;
+    --negro: rgba(0, 0, 0, 0.984);
+    --neutral-c: #f5f5f5;
+    --gris-oscuro: #8c8c8c;
+    --grafito: #222;
+    --rojo: #b81515;
+    --verde: rgb(7, 95, 9);
+    --vereclaro: rgba(95, 202, 13, 0.948);
+    --amarillo: rgb(235, 221, 30);
+}
+
+* {
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #222;
+    max-width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+    
+}
+
+/*login acceso registrado*/
+.login {
+    background-color: var(--blanco);
+   width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    padding: 1px;
+    border-radius: 8px;
+    background-color: var(--vereclaro);
+}
+
+.buttonl {
+    padding: 5px px;
+    border-radius: 15px;
+    border-color: 2px var(--azul);
+    color: var(--blanco);
+    background-color: var(--azul);
+}
+
+.buttonl:hover {
+    background-color: var(--verde);
+}
+
+/*logo y menu navegacion*/
+.container-fluid {
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-brand--icono {
+    width: 310px;
+    height: 100px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-bottom: 12px solid var(--azul);
+}
+
+.nav-link {
+    color: var(--negro);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 20px;
+}
+
+.nav-link:hover {
+    background-color: var(--azul);
+    border-radius:  15px 15px 0px 0px;
+    color: var(--blanco);
+}
+
+/*contenido*/
+
+.cuerpo{
+    background-color: #222;
+    max-width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container12{
+    background-color: var(--blanco);
+   width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+    
+    height: 150px;
+    gap: 0px;
+    border-bottom: 12px solid var(--azul);
+}
+
+.fw-bold{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.5px;
+}
+
+.btn2 {
+    color: var(--negro);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 15px;
+}
+
+.btn2:hover {
+    background-color: var(--azul);
+    border-radius:  15px 15px 0px 0px;
+    color: var(--blanco);
+    border-color: var(--blanco);
+}
+
+/*tabla*/
+.container12tabla{
+    background-color: var(--blanco);
+   width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+
+  }
+
+  .table_dark{
+    background-color: var(--azul);
+    color: var(--blanco);
+  }
+  
+  .table_dark .th {
+    
+    
+    color: var(--grafito);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table td {
+    border: 2px solid var(--azul);
+    padding: 1px;
+    text-align: center;
+  }
+  
+/*formulario*/
+
+.container13{
+    background-color: var(--blanco);
+   width: 1200px;
+   display: flex;
+   flex: content;
+   align-items: center;
+    justify-content: center;
+  
+}
+
+.row2 {
+    width:80%;
+    margin: 50px;
+    
+  }
+
+
+
+.mb-3{
+    display: grid;
+  
+}
+  
+  .form-label {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+
+  
+
+
+  .btn-btn-primary {
+    color: var(--negro);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 25px;
+    padding: 20px 60px;
+}
+
+.btn-btn-primary:hover {
+    background-color: var(--verde);
+    border-radius:  15px 15px 0px 0px;
+    color: var(--blanco);
+    border-color: var(--blanco);
+}
+
+.btn-btn-secundary {
+    color: var(--negro);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 25px;
+    padding: 20px 60px;
+}
+
+.btn-btn-secundary:hover {
+    background-color: var(--amarillo);
+    border-radius:  15px 15px 0px 0px;
+    color: var(--blanco);
+    border-color: var(--blanco);
+}
+
+/*botones de la tabla*/
+
+.btnt1 {
+    color: var(--negro);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 25px;
+    padding: 10px;
+}
+
+.btnt1:hover {
+    background-color: var(--amarillo);
+    border-radius:  15px 15px 0px 0px;
+    color: var(--blanco);
+    border-color: var(--blanco);
+}
+
+.btnt2 {
+    color: var(--negro);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 25px;
+    padding: 10px;
+}
+
+.btnt2:hover {
+    background-color: var(--rojo);
+    border-radius:  15px 15px 0px 0px;
+    color: var(--blanco);
+    border-color: var(--blanco);
+}
+
+/*footer*/
+
+.footer{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+}
+
+.copy{
+    max-width: 1200px;
+    height: 100px;
+    background-color: var(--blanco);
+    display: flex;
+    flex: content;
+    justify-content: center;
+}
+
+.zona1{
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:normal;
+}
+
+.zona2{
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5px;
+
+}
+
+.zona3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    gap: 50px;
+    padding: 5%;
+
+}
+
